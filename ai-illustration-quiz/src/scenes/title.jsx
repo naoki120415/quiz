@@ -13,11 +13,10 @@ export function Title (props) {
         
         <div className={styles.flex_test_box}>
           <button className={styles.button} onClick={props.onClickStart1}>aaaぶ</button>
-          <button className={styles.button} onClick={props.onClickStart2}>二人で遊ぶ</button>
+          <button className={styles.button} onClick={props.onClickStart2}>三人で遊ぶ</button>
         </div>
     </div> 
     
   );
 };
-
 

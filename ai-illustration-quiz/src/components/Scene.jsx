@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Result } from 'src/scenes/Result';
 import { Title } from 'src/scenes/title';
 import { SP_main } from 'src/scenes/singleplay_main';
+import { SP_correct } from 'src/scenes/correct';
 
 export function Scene() {
     
@@ -12,16 +13,16 @@ export function Scene() {
     //console.log(currentScene);
     const [scene, setScene] = useState('title');
     const [score, setScore] = useState(0);
+
     const handleGameOvered = (finalScore) => {
-      
       setScore(finalScore)
       setScene('result')
     }
     return(
     <div className={styles.container}>
-      <div className="container">
+      <div className="container" style={{ width: 900, height: 600 }}>
         <div className="box">
-            <div id="scene" className="scene" style={{ width: 900, height: 600 }}>
+            <div id="scene" className="scene" >
                 {scene === 'title' && <Title onClickStart1={() => setScene('mode_select')} onClickStart2={() => setScene('result')}/>}
                 {scene === 'mode_select' && <Mode_select onClickStart={() => setScene('singleplay_main')}/>} 
                 {scene === 'singleplay_main' && <SP_main onGameOvered={handleGameOvered}/>} 

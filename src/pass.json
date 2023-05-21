@@ -1,0 +1,37 @@
+{
+  "image_data":[{
+    "pass":"/../public/image/photo/animal/1.jpg",
+    "ans":"ひつじ"
+  },{
+    "pass":"/../public/image/photo/animal/2.jpg",
+    "ans":"いるか"
+  },{
+    "pass":"/../public/image/photo/animal/3.jpg",
+    "ans":"ごりら"
+  },{
+    "pass":"/../public/image/photo/animal/4.jpg",
+    "ans":"ぺんぎん"
+  },{
+    "pass":"/../public/image/photo/animal/5.jpg",
+    "ans":"うし"
+  },{
+    "pass":"/../public/image/photo/animal/6.jpg",
+    "ans":"あざらし"
+  },{
+  "pass":"/../public/image/photo/animal/7.jpg",
+    "ans":"かめ"
+  },{
+    "pass":"/../public/image/photo/animal/8.jpg",
+      "ans":"かば"
+  },{
+    "pass":"/../public/image/photo/animal/9.jpg",
+     "ans":"ねこ"
+   },{
+    "pass":"/../public/image/photo/animal/10.jpg",
+    "ans":"しか"
+   },{
+    "pass":"/../public/image/photo/animal/11.jpg",
+    "ans":"くま"
+  }
+]
+}

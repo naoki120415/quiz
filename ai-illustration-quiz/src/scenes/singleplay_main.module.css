@@ -11,6 +11,7 @@
 .container .chatInputButton input {
   padding: 12px;
   border-radius: 5px;
+  margin-top: 40px;
   outline: none;
   border: none;
   background-color: rgb(218, 229, 240);

@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.container .chatInputButton {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .chatInputButton input {
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(218, 229, 240);
+}
+
+.container .chatInputButton button {
+  background: rgb(56, 82, 103);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+.flex_test_box {
+  display: flex;
+}
+
+.button{
+  background-color:skyblue;
+  padding: 20px;
+  color:#fff;
+  margin: 10px auto 0;
+  display: block;
+  width: 150px;
+  text-align: center;
+  border-radius:10px;
+  border:none;
+  
+}
+
+.image_flex{
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  width: 105.5%;
+  height: 125%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: relative;
+  z-index: 10;
+}
+
+.video2 {
+  position: absolute;
+  top: -150px;
+  left: -300px;
+  width: 200%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.overlay2 {
+  position: relative;
+  z-index: 5;
+}
+
+.fadeUp {
+  animation-name:fadeUpAnime;
+  animation-duration:2s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime{
+  from { opacity: 0; transform: translateY(100px); }
+  to { opacity: 1; transform: translateY(0); }
+}

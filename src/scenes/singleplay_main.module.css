@@ -1,0 +1,85 @@
+.container {
+  padding: 0 2rem;
+  
+}
+
+.container .chatInputButton {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .chatInputButton input {
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(218, 229, 240);
+}
+
+.container .chatInputButton button {
+  background: rgb(56, 82, 103);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.flex_test_box {
+  display: flex; 
+}
+
+.picture {
+
+  margin-left: 240px;
+}
+
+.circul {
+  margin-top: -60px;
+  margin-left: 190px;
+  width: 70px;
+  height: 70px;
+
+}
+
+.circul h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top:-55px; 
+   margin-bottom: 40px; 
+   color: white;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  width: 105.5%;
+  height: 104%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: relative;
+  z-index: 100;
+}
+
+.video2 {
+  position: absolute;
+  top: -150px;
+  left: -300px;
+  width: 200%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.overlay2 {
+  position: relative;
+  z-index: 5;
+}

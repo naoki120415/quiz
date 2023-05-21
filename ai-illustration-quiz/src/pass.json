@@ -1,0 +1,22 @@
+{
+  "image_data":[{
+    "pass":"/../public/image/photo/animal/1.jpg",
+    "ans":"くま"
+  },{
+    "pass":"/../public/image/photo/animal/2.jpg",
+    "ans":"いるか"
+  },{
+    "pass":"/../public/image/photo/animal/3.jpg",
+    "ans":"ごりら"
+  },{
+    "pass":"/../public/image/photo/animal/4.jpg",
+    "ans":"ぺんぎん"
+  },{
+    "pass":"/../public/image/photo/animal/5.jpg",
+    "ans":"うし"
+  },{
+    "pass":"/../public/image/photo/animal/6.jpg",
+    "ans":"あざらし"
+  }
+]
+}

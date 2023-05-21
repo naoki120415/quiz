@@ -1,0 +1,26 @@
+.container {
+  padding: 0 2rem;
+  
+}
+
+.container .chatInputButton {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .chatInputButton input {
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(218, 229, 240);
+}
+
+.container .chatInputButton button {
+  background: rgb(56, 82, 103);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}

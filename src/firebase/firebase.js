@@ -6,12 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBKwQ5_qessPXOgeFvZXdrbfk43HhyojEw",
-  authDomain: "ai-illustration-quiz-9edee.firebaseapp.com",
-  projectId: "ai-illustration-quiz-9edee",
-  storageBucket: "ai-illustration-quiz-9edee.appspot.com",
-  messagingSenderId: "839691351701",
-  appId: "1:839691351701:web:6359e8408fce7315eb4d9c"
+
 };
 
 // Initialize Firebase
